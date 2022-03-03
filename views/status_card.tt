@@ -1,0 +1,20 @@
+<p><strong><% data.device %> - <% data.name %> <% data.serial %></strong></p>
+<p style="color:#80D651"><em>Last updated: <% data.last_updated %></em></p>
+<div class="row">
+	<div class="col">
+		<p>S.M.A.R.T.</p>
+		<p><strong><% data.status %></strong></p>
+	</div>
+	<div class="col">
+		<p>TEMPERATURE</p>
+		<p><strong><% data.temperature %></strong></p>
+	</div>
+	<div class="col">
+		<p>CAPACITY</p>
+		<p><strong><% data.capacity %></strong></p>
+	</div>
+	<div class="col">
+		<p>POWERED ON</p>
+		<p><strong><% data.powered_on %></strong></p>
+	</div>
+</div>

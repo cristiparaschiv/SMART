@@ -1,0 +1,11 @@
+<div class="container">
+	<h1>S.M.A.R.T. Report</h1>
+	<br>
+	<div class="row">
+		<% FOREACH card IN cards %>
+			<% card %>
+		<% END %>
+	</div>
+
+</div>
+

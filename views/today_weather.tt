@@ -1,0 +1,41 @@
+<p class="lead">Today's Forecast</p>
+<div class="row">
+	<div class="col">
+		<p><strong>Min Temperature:</strong></p>
+		<p><% data.day_min_temp %></p>
+		<p><strong>Total Precipitations:</strong></p>
+		<p><% data.day_total_precip %></p>
+	</div>
+	<div class="col">
+		<p><strong>Max Temperature:</strong></p>
+		<p><% data.day_max_temp %></p>
+		<p><strong>Max Wind:</strong></p>
+		<p><% data.day_max_wind %></p>
+	</div>
+	<div class="col">
+		<p><strong>Condition:</strong></p>
+		<p><% data.day_condition %></p>
+		<p><strong></strong></p>
+		<p><img src="<% data.day_icon %>"></p>
+	</div>
+</div>
+<p class="lead">Astronomy</p>
+<div class="row">
+	<div class="col">
+		<p><strong>Sunrise:</strong></p>
+		<p><% astro.sunrise %></p>
+		<p><strong>Moonrise:</strong></p>
+		<p><% astro.moonrise %></p>
+	</div>
+	<div class="col">
+		<p><strong>Sunset:</strong></p>
+		<p><% astro.sunset %></p>
+		<p><strong>Moonset:</strong></p>
+		<p><% astro.moonset %></p>
+	</div>
+	<div class="col">
+		<p><strong>Moonphase:</strong></p>
+		<p><% astro.moonphase %></p>
+	</div>
+
+</div>

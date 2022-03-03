@@ -1,0 +1,21 @@
+<p class="lead">Current Weather:</p>
+<div class="row">
+	<div class="col">
+		<p><strong>Temperature:</strong></p>
+		<p><% data.current %></p>
+		<p><strong>Wind:</strong></p>
+		<p><% data.wind %></p>
+	</div>
+	<div class="col">
+		<p><strong>Feels Like:</strong></p>
+		<p><% data.feels %></p>
+		<p><strong>Precipitations:</strong></p>
+		<p><% data.precip %></p>
+	</div>
+	<div class="col">
+		<p><strong>Condition:</strong></p>
+		<p><% data.condition %></p>
+		<p></p>
+		<p><img src="<% data.icon %>"></p>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<table class="<% class %>">
+	<thead>
+		<% FOREACH column IN columns %>
+			<th scope="col"><% column %></th>
+		<% END %>
+	<thead>
+	<tbody>
+		<% FOREACH row IN data %>
+			<tr>
+				<% FOREACH entry IN row %>
+					<td><% entry %></td>
+				<% END %>
+			</tr>
+		<% END %>
+	</tbody>
+</table>
