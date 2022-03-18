@@ -1,0 +1,11 @@
+---
+version: "2.1"
+services:
+   smart:
+    image: cristianvp/smart
+    container_name: smart
+    volumes:
+      - /home/cristi/dhome/smart:/var/db
+    ports:
+      - 8777:3000
+    restart: unless-stopped
