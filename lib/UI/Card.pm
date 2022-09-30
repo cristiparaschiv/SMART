@@ -8,7 +8,6 @@ sub new {
     my $content = shift;
     my $type    = shift;
 
-    debug Dumper $type;
     my $class = "notice ";
     if ( $type eq "success" ) {
         $class .= "notice-success";
